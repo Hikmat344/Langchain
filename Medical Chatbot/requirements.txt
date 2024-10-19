@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+python-dotenv
+transformers
+sentencepiece
+# llama==0.0.1
