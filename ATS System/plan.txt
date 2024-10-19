@@ -1,0 +1,4 @@
+1. field to put my job discription
+2. upload pdf
+3. pdf to image --> processing --> google gemini processing
+4. Prompts Templates for execution [multiple prompts]
