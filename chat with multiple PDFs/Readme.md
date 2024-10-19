@@ -15,14 +15,17 @@ This project allows you to interact with a chatbot that can analyze and compare 
    - Create a virtual environment to isolate your project dependencies.
    ```bash
    python -m venv venv
+   
 2. **Activate Virtual Environment**
 
 - Activate the virtual environment based on your operating system:
 Windows:
+
 ```bash
 Copy code
 venv\Scripts\activate
 Mac/Linux:
+
 ```bash
 Copy code
 source venv/bin/activate
