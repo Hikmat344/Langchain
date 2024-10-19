@@ -49,4 +49,4 @@ OPENAI_API_KEY=your_openai_key_here
 streamlit run app.py
 ```
 ## Live Demo
-You can check out the live version of the application here.
+You can check out the live version of the application [here](https://huggingface.co/spaces/HikmatUllah/Chat_with_your_PDFs).
