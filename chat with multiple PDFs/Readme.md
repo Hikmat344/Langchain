@@ -1,58 +1,31 @@
-# PDF Chatbot with Multiple PDF Support
+2. Activate the Virtual Environment
+On macOS/Linux:
 
-This project allows you to interact with a chatbot that can analyze and compare multiple PDF resumes against a job description. The chatbot is built using Streamlit, and integrates with OpenAI's API.
-
-## Getting Started
-
-### Prerequisites
-- Python 3.x
-- [OpenAI API Key](https://beta.openai.com/signup/)
-- Internet connection
-
-### Setup Instructions
-
-1. **Create Virtual Environment**
-   - Create a virtual environment to isolate your project dependencies.
-   ```bash
-   python -m venv venv
-   
-2. **Activate Virtual Environment**
-
-- Activate the virtual environment based on your operating system:
-Windows:
-
-```bash
-Copy code
-venv\Scripts\activate
-Mac/Linux:
-
-```bash
+bash
 Copy code
 source venv/bin/activate
-3. **Install Requirements**
+On Windows:
 
-- Install the necessary dependencies by running:
-```bash
+bash
+Copy code
+venv\Scripts\activate
+3. Install the Required Dependencies
+Once the environment is activated, install the necessary packages using:
+
+bash
 Copy code
 pip install -r requirements.txt
-4. **Set Up .env File**
+4. Set Up the .env File
+Create a .env file in the root directory of the project and add your OpenAI API key like this:
 
-- Create a .env file in the root directory of the project and paste your OpenAI API key in it:
-```bash
+bash
 Copy code
-OPENAI_API_KEY=your_openai_api_key_here
-5. **Run the Streamlit App**
+OPENAI_API_KEY=your_openai_key_here
+5. Run the Streamlit App
+You can now run the Streamlit app with the following command:
 
-- Start the Streamlit app:
-```bash
+bash
 Copy code
 streamlit run app.py
-6. **Live Demonstration**
-
-Check out the live demonstration of the app using this link: Live Demo
-Enjoy chatting with multiple PDFs and getting insights from your documents!
-
-vbnet
-Copy code
-
-This file provides step-by-step instructions for setting up and running your chatbot application. Mak
+Live Demonstration
+You can check out the live version of the application here.
